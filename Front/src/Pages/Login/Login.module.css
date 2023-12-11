@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.corpo1 {
+  font-size: 1.6rem;
+  background: #ffffff url("../../assets/plano-de-fundo-login.jpg") no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#mains {
+  padding: 4rem 0;
+}
+
+#form2 {
+  text-align: center;
+  background-color: rgba(255,255,255,0.75);
+  width: 50rem;
+  border-radius: 0.5rem;
+  padding: 3.25rem;
+}
+
+#criar-conta {
+  font-size: 2.6rem;
+  padding: 2rem;
+}
+
+#descricao {
+  padding: 0 5rem;
+}
+
+#linha {
+  margin: 3rem 0;
+  color: darkslategray;
+}
+
+.container {
+  padding: 0 5rem;
+}
+
+.inserir {
+  margin-bottom: 2rem;
+}
+
+.labe {
+  display: block;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  width: 100%;
+  color: black;
+  padding: 0;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.puts{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid gray;
+  font-size: 1.6rem;
+  width: 100%;
+}
+/*
+input, button, p {
+  padding: 1rem;
+}
+
+input, button {
+  border-radius: 0.5rem;
+  border: 0.1rem solid gray;
+}
+
+input, label, button {
+  font-size: 1.6rem;
+}
+*/
+
+.btn1 {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid gray;
+  padding: 1rem;
+  width: 100%;
+}
+
+.btn1:hover {
+  background-color: rgb(140, 140, 140);
+}
+
+.btn2 {
+  background-color: rgba(255,255,255,0.75);
+  color: gray;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 0.1rem solid gray;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.btn2:hover {
+  background-color: gray;
+  color: white;
+}
+
+#esqueceu-senha {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+#esqueceu-senha a{
+  color: gray;
+  text-decoration: none;
+}
+#esqueceu-senha a:hover{
+  text-decoration: underline;
+}
+.ou{
+  padding: 1rem;
+}
